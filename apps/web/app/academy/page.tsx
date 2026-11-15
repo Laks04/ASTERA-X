@@ -1,0 +1,2 @@
+import AcademyClient from '../../components/AcademyClient';
+export default function Academy(){return <section className="page-shell"><div className="page-intro"><span className="eyebrow">ASTERA ACADEMY / 004</span><h1>Learn the <em>language of space.</em></h1><p>Build your understanding of planetary science, mission design and the instruments that help us explore.</p></div><AcademyClient/></section>}

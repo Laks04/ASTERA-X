@@ -1,0 +1,48 @@
+node_modules/
+.next/
+.expo/
+dist/
+build/
+.env
+.env.*.local
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+coverage/
+.DS_Store
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+.venv/
+venv/
+
+# Build output and caches
+.next/
+**/.next/
+dist/
+**/dist/
+coverage/
+.turbo/
+.vercel/
+.expo/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+# Local files
+*.log
+.DS_Store
+Thumbs.db
+
+# Legacy Vite scaffold; the web application uses Next.js
+apps/web/index.html
+apps/web/src/
+apps/web/vite.config.js

@@ -1,0 +1,21 @@
+{
+  "name": "astera",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "web": "npm run dev -w @astera/web",
+    "build:web": "npm run build -w @astera/web",
+    "start:web": "npm run start -w @astera/web",
+    "typecheck:web": "npm run typecheck -w @astera/web",
+    "mobile": "npm run start -w @astera/mobile",
+    "api": "cd services/api && uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "test:api": "cd services/api && python -m pytest -q",
+    "seed:api": "cd services/api && python scripts/seed_registry.py",
+    "stack:up": "docker compose -f infrastructure/docker-compose.yml up --build",
+    "stack:down": "docker compose -f infrastructure/docker-compose.yml down",
+    "typecheck:mobile": "npm run typecheck -w @astera/mobile"
+  }
+}

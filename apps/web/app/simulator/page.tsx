@@ -1,0 +1,2 @@
+import SimulatorClient from '../../components/SimulatorClient';
+export default function Simulator(){return <section className="page-shell"><div className="page-intro"><span className="eyebrow">MISSION DESIGN LAB / 005</span><h1>Think like a <em>mission team.</em></h1><p>Move through the stages of a conceptual space mission and explore the decisions behind exploration.</p></div><SimulatorClient/></section>}

@@ -1,0 +1,2 @@
+import { ScrollView, Text } from 'react-native';
+export default function Profile(){return <ScrollView style={{flex:1,backgroundColor:'#050711'}} contentContainerStyle={{padding:20,gap:14}}><Text style={{color:'#eef1ff',fontSize:28,fontWeight:'700'}}>Explorer profile</Text><Text style={{color:'#a5afd0',fontSize:13,lineHeight:22}}>Guest preview. Connect the ASTERA authentication backend to enable secure accounts, saved missions and synchronized learning progress.</Text></ScrollView>}

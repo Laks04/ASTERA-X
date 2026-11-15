@@ -1,0 +1,52 @@
+[
+  {
+    "id": "apollo11",
+    "name": "Apollo 11",
+    "destination": "Moon",
+    "year": 1969,
+    "type": "Lunar exploration",
+    "description": "The first crewed lunar landing. Explore the equipment and scientific legacy left on the Moon.",
+    "status": "Mission completed",
+    "emoji": "\ud83c\udf15"
+  },
+  {
+    "id": "pathfinder",
+    "name": "Mars Pathfinder",
+    "destination": "Mars",
+    "year": 1997,
+    "type": "Rover and lander",
+    "description": "A lander and the Sojourner rover demonstrated new ways to explore Mars.",
+    "status": "Mission completed",
+    "emoji": "\ud83d\udd34"
+  },
+  {
+    "id": "voyager1",
+    "name": "Voyager 1",
+    "destination": "Interstellar space",
+    "year": 1977,
+    "type": "Deep-space probe",
+    "description": "Launched to explore the outer planets and continued into interstellar space. Check NASA for current operational status.",
+    "status": "Status requires live verification",
+    "emoji": "\ud83d\udef0\ufe0f"
+  },
+  {
+    "id": "huygens",
+    "name": "Huygens",
+    "destination": "Titan",
+    "year": 2005,
+    "type": "Atmospheric probe",
+    "description": "The probe descended through Titan\u2019s atmosphere and returned surface observations.",
+    "status": "Mission completed",
+    "emoji": "\ud83e\ude90"
+  },
+  {
+    "id": "insight",
+    "name": "InSight",
+    "destination": "Mars",
+    "year": 2018,
+    "type": "Lander",
+    "description": "Studied the interior of Mars using geophysical instruments.",
+    "status": "Mission completed",
+    "emoji": "\ud83d\udd34"
+  }
+]

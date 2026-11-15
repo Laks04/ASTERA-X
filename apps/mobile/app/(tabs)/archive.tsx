@@ -1,0 +1,3 @@
+import { ScrollView, Text, View } from 'react-native';
+const rows=['Apollo Lunar Modules · Moon','Lunar Roving Vehicles · Moon','ALSEP Scientific Packages · Moon','Surveyor 3 · Moon','Sojourner · Mars','Spirit & Opportunity · Mars','Ingenuity · Mars','Pioneer 10 & 11 · Deep space'];
+export default function Archive(){return <ScrollView style={{flex:1,backgroundColor:'#050711'}} contentContainerStyle={{padding:20,gap:12}}>{rows.map((x,i)=><View key={x} style={{padding:16,borderWidth:1,borderColor:'#303a63',borderRadius:7,backgroundColor:'#10172b'}}><Text style={{color:'#9b9fff',fontSize:10}}>COLLECTION 0{i+1}</Text><Text style={{color:'#edf0ff',fontSize:15,marginTop:6}}>{x}</Text></View>)}</ScrollView>}

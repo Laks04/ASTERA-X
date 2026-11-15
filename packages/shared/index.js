@@ -1,0 +1,2 @@
+export const missions = require("./missions.json");
+export const planets = [{name:"Mercury",color:"#b7aaa1",size:8,orbit:60},{name:"Venus",color:"#e8b887",size:12,orbit:90},{name:"Earth",color:"#4f9dff",size:13,orbit:125},{name:"Mars",color:"#df674e",size:10,orbit:165},{name:"Jupiter",color:"#d8a57f",size:29,orbit:215},{name:"Saturn",color:"#d6bf89",size:24,orbit:265},{name:"Uranus",color:"#91e5e9",size:19,orbit:315},{name:"Neptune",color:"#668bff",size:19,orbit:365}];
